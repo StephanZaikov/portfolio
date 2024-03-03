@@ -1,0 +1,50 @@
+body {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+}
+h1 {
+    color: #fff;
+    font-size:  64px;
+    text-transform: uppercase;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+h1+p {
+    color:#fff;
+    text-transform: uppercase;
+}
+.wrapper{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.wrapper-gray {
+    background-color: #f7f7f7;
+}
+.bg {
+    background-image: url(../img/Banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 300px 0;
+    text-align: center;
+}
+.stat {
+ text-align: center;
+ display: flex;   
+ justify-content: space-between;    
+ max-width: 900px;
+ margin: -200px auto 0;
+}
+.stat-item h2 {
+    font-size: 72px;
+    color: #f7654a;
+
+}
+.stat-item h3 {
+    font-size: 36px;
+
+}
+.stat-item p {
+    color: #999999;
+
+}
